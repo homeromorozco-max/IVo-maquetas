@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main class="Main">
+    
+    <article class="Arriba1">
+        <input
+     class="Opcion" 
+     id="Palabra"
+    type="text"
+    placeholder="Inputea lo que quieras"
+    style="width: 50%; height: 10%; font-size: 1rem; text-align: baseline;border-radius: 6px; border: 40px solid black; padding: 1rem; margin: 0rem;"
+    >
+    <div class="Cuadradorandom"></div>
+    </article>
+    <article class="Arriba2">
+        <div class="TextoRandom">aaa</div>
+        <div class="TextoRandom">bbb</div>
+        <div class="TextoRandom">ccc</div>
+        <div class="TextoRandom">ddd</div>
+    </article>
+    <article class="Medio">
+
+    </article>
+
+    <article class="Abajo"></article>
+    </main>
+    <select name="" id=""></select>
+</body>
+
+
+<style>
+*{
+    
+    margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+
+.Main{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    
+}
+.Arriba1{
+    background-color: rgb(199, 15, 15);
+    height: 25%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+     display:flex;
+    text-overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.Arriba2{
+    background-color: rgb(15, 199, 46);
+    height: 8%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+     display:flex;
+    text-overflow: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Cuadradorandom{
+    aspect-ratio: 1/1;
+    height: 47%;
+    background-color: rgb(15, 199, 199);
+}
+.TextoRandom{
+    background-color: rgb(199, 199, 15);
+}
+
+
+
+
+
+
+.Medio{
+    background-color: rgb(15, 15, 199);
+    height: 34%;
+    width: 100%;
+    padding: 0.5;
+    margin: 0;
+     display:flex;
+    text-overflow: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Abajo{
+    background-color: rgb(15, 199, 15);
+    height: 33%;
+    width: 100%;
+    padding: 0.5;
+    margin: 0;
+     display:flex;
+    text-overflow: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+</style>
+</html>
